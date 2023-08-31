@@ -1,0 +1,42 @@
+.heading{
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+}
+
+.btn:active{
+    transform: translateY(1px);
+    
+}
+
+.btn{
+    background-color: rgb(0, 0, 0);
+    transition: 0.2s;
+    outline: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+    outline: solid black 1px;
+}
+
+#cv-template{
+    display: none;
+}
+
+#addressT{
+    font-size: 15px;
+}
+
+.col-5{
+    font-size: 20px;
+}
+
+#cv-template{
+    background-color: rgb(244, 242, 240);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
